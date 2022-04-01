@@ -38,7 +38,7 @@ for arr in X:
     X[x,0] = dt
     x += 1
 """
-#Spltting the dataset
+#Splitting the dataset
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=1)
 
 #Converting y values to readable integers
